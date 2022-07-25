@@ -1,5 +1,7 @@
-.category:focus{
-    border: none;
+/* Genaral Styles */
+.ogani-bg{
+    background-color: #7FAD39;
+    color:#fff;
 }
 .home-banner{
     background-image: url(../img/header-banner.jpg);
@@ -20,4 +22,25 @@
     text-align: center;
     padding: 10px;
     margin-left:10px;
+}
+.call-to-action{
+    position: relative;
+    top:-60px;
+    text-align: center;
+}
+.call-to-action .fa-solid{
+    margin-right: 10px;
+    transition: 0.3s background-color ease-in-out;
+    cursor: pointer;
+}
+.call-to-action .fa-solid:hover{
+    background-color: #7FAD39;
+    color:#fff;
+}
+.product-detail{
+    margin:0px;
+    margin-left:10px;
+}
+.product-detail p, h3{
+    margin:0px;
 }
