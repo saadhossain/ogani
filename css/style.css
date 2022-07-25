@@ -1,0 +1,9 @@
+.category:focus{
+    border: none;
+}
+.home-banner{
+    background-image: url(../img/header-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
