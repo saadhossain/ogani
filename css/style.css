@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* Genaral Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .ogani-bg{
     background-color: #7FAD39;
     color:#fff;
 }
+.ogani-text{
+    color: #7FAD39;
+}
+
 .home-banner{
     background-image: url(../img/header-banner.jpg);
     background-repeat: no-repeat;
@@ -46,4 +54,10 @@
 }
 footer{
     background-color:#101C2C;
+}
+.subscribe input[type="email"]{
+    border-radius: 5px 0px 0px 5px;
+}
+.subscribe [type="submit"]{
+    border-radius: 0px 5px 5px 0px;
 }

@@ -18,7 +18,7 @@
 <body>
   <!-- Header Section Start here -->
   <header>
-    <section class="top-nav bg-light">
+    <section class="top-nav bg-light d-none d-md-block">
       <div class="container">
         <div class="py-1 d-flex justify-content-between align-items-center">
           <div class="d-flex">
@@ -96,7 +96,7 @@
     <!-- Banner and Vertical Menu section Start -->
     <section class="container">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 d-none d-md-block">
           <div class="border p-3">
             <h5><i class="fa-solid fa-bars"></i> All Categories</h5>
             <ul class="navbar-nav">
@@ -138,9 +138,9 @@
         <div class="col-lg-9 d-flex align-items-center p-5 home-banner">
           <div>
             <h5>FRUIT FRESH</h5>
-            <h1>Vegetable 100% Organic</h1>
+            <h1 class="display-2 fw-bold ogani-text">Vegetable 100% Organic</h1>
             <p>Free Pickup and Delivery Available</p>
-            <div class="btn btn-primary">Shop Now</div>
+            <div class="btn ogani-bg">Shop Now</div>
           </div>
         </div>
       </div>
@@ -329,7 +329,7 @@
     <!-- Blog section start here -->
     <section class="container my-5">
       <h2 class="displaye-4 fw-bold text-center">From the Blog</h2>
-      <div class="row row-cols-lg-3 row-cols-md-3 row-cols-1">
+      <div class="row row-cols-lg-3 row-cols-md-3 row-cols-1 g-3">
         <div class="col">
           <article class="card">
             <img src="img/blog-1.jpg" alt="" class="img-fluid blog-thumb">
@@ -404,12 +404,18 @@
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
           <h3>Subscribe Our Newsletter</h3>
-
+          <form class="d-flex mt-3 subscribe">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
+            <button type="submit" class="btn ogani-bg">Subscribe</button>
+          </form>
         </div>
       </div>
     </div>
     <hr>
-    <p class="text-center">&copy;2022 Ogani Fresh Fruits and Vegetables.</p>
+    <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-center">
+      <p class="text-center">&copy;2022 Ogani Fresh Fruits and Vegetables.</p>
+      <img src="img/payment-methods.png" alt="" height="15px">
+    </div>
   </footer>
   <!-- Footer Section End -->
   <!-- Bootstrap script -->
